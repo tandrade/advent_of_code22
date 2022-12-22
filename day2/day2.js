@@ -1,6 +1,10 @@
 const fs = require('fs');
 const readline = require('readline');
 
+// ALTERNATE STRATEGY WORTH CONSIDERING: 
+// converting to point value and then handling win / lose / draw with numeric values
+
+
 pointDictionary = { 
     // winning combos
     "A Z": 6 + 2, // to win against rock, play paper (2)
